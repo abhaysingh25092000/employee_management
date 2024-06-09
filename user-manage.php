@@ -57,7 +57,6 @@ include('includes/sidebar.php');
                 <th scope="col">#</th>
                 <th scope="col">Name</th>
                 <th scope="col">Email</th>
-                <th scope="col">Password</th>
                 <th scope="col">Types</th>
                 <th scope="col">Status</th>
                 <th scope="col">Actions</th>
@@ -79,7 +78,6 @@ include('includes/sidebar.php');
                   <th scope="row"><?php echo $rows['id'];?></th>
                   <td><?php echo $rows['Name'];?></td>
                   <td><?php echo $rows['UserName'];?></td>
-                  <td><?php echo $rows['Password'];?></td>
                   <td><?php echo $rows['UserType'];?></td>
                   <td><?php echo $sts;?></td>
                   <td>
